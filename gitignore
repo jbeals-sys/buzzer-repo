@@ -1,0 +1,36 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Arduino IDE temp files
+*.bak
+*.tmp
+
+# Arduino IDE 2.x cache
+.arduino15/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
